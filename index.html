@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <title>Tic Tac Toe Game</title>
+  </head>
+  <body>
+    <header class="text-center py-4 bg-dark text-light">
+      <h1>Wanna play a Tic Tac Toe Game?</h1>
+      <div class="container py-4">
+        <button type="button" class="btn btn-pvp btn-primary mx-4">
+          Player vs Player
+        </button>
+        <button type="button" class="btn btn-pvc btn-danger mx-4">
+          Player Vs Pc
+        </button>
+        <button type="button" class="btn btn-reset btn-danger mx-4">
+          Restart
+        </button>
+      </div>
+    </header>
+    <div class="gl">
+      <h1>Good Luck!</h1>
+      <p class="bi bi-emoji-dizzy fs-3"></p>
+    </div>
+    <div class="container1">
+      <div class="b1 empty"></div>
+      <div class="b2 empty"></div>
+      <div class="b3 empty"></div>
+      <div class="b4 empty"></div>
+      <div class="b5 empty"></div>
+      <div class="b6 empty"></div>
+      <div class="b7 empty"></div>
+      <div class="b8 empty"></div>
+      <div class="b9 empty"></div>
+    </div>
+
+    <!-- <p class="lead winner text-center mt-4 mb-1 fs-1 fw-bold"></p>
+    <div class="bi text-center fs-2"></div> -->
+    <div class="container-modal hidden">
+      <div class="modal-winner">
+        <h6 class="text-center">Game Over!</h6>
+        <button class="close-modal cls-btn">&#x2715;</button>
+
+        <h1 class="the-winner">Draw!</h1>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
